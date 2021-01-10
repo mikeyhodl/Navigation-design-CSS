@@ -3,8 +3,20 @@ a {
   text-decoration: underline;
   cursor: pointer;
 }
+a:link{
+
+}
+
+a:visited, .question-link:visited{
+  color: #ffffff;
+
+}
 
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+a:active, .question-link:active{
+  color: #DBE9EE;
 
 }
