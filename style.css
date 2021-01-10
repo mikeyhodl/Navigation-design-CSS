@@ -7,7 +7,7 @@ a:link{
 
 }
 
-a:visited, .question-link:visited{
+.question-link:visited{
   color: #ffffff;
 
 }
