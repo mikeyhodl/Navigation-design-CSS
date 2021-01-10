@@ -1,22 +1,38 @@
-a {
-  color: #466995;
-  text-decoration: underline;
-  cursor: pointer;
-}
-a:link{
-
-}
-
 .question-link:visited{
   color: #ffffff;
-
 }
 
-a:hover {
+a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a:link {
+  color: #61bff9;
+}
+
+a:visited {
+  color: #466995;
+}
+
+a:hover { 
   text-decoration: none;
 }
 
-a:active, .question-link:active{
-  color: #DBE9EE;
-
+a:active, .question-link:active {
+  color:#DBE9EE;
 }
+
+.answer {
+  border: 1px solid #466995;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0px 4px;
+}
+
+.answer:active {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  box-shadow: 0px 0px;
+  background-color: #C0D6DF;
+  color: #ffffff;
